@@ -27,5 +27,14 @@
       <field type="float" name="Wy">Angular velocity y</field>
       <field type="float" name="Wz">Angular velocity z</field>
     </message>
+    <message id="18182" name="SENSOR_IMU">
+      <description>sensor_imu</description>
+      <field type="float" name="wx">angular velocity x</field>
+      <field type="float" name="wy">angular velocity y</field>
+      <field type="float" name="wz">angular velocity z</field>
+      <field type="float" name="ax">acceleration x</field>
+      <field type="float" name="ay">acceleration y</field>
+      <field type="float" name="az">acceleration z</field>
+    </message>
   </messages>
 </mavlink>
